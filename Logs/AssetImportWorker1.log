@@ -223,3 +223,15 @@ Received Import Request.
   path: Assets/Materials/Models/BobbleArena-No Name.mat
   artifactKey: Guid(8b3617c5a4dc61046a577aeabc9f9567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Materials/Models/BobbleArena-No Name.mat using Guid(8b3617c5a4dc61046a577aeabc9f9567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aec8152ee8a4243679700d88633bd22') in 0.018836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 136.874813 seconds.
+  path: Assets/Textures/Bobble Wars Marine texture.psd
+  artifactKey: Guid(c03cad382b84134459f83fbe6f6e08f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Bobble Wars Marine texture.psd using Guid(c03cad382b84134459f83fbe6f6e08f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c722a244b896df84c640fbf073c622') in 0.022824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Textures/Import/Bobble Wars Marine texture.psd
+  artifactKey: Guid(8e73919eca0a747faadef4a8f85780cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Import/Bobble Wars Marine texture.psd using Guid(8e73919eca0a747faadef4a8f85780cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294808bfb2a3932887022293cebae44c') in 0.034520 seconds 

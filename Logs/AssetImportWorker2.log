@@ -157,3 +157,27 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 207773.847869 seconds.
+  path: Assets/Models/BobbleArena-Column.blend
+  artifactKey: Guid(7efbd8df4f8f248a58d8a33c88abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Models/BobbleArena-Column.blend using Guid(7efbd8df4f8f248a58d8a33c88abe034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bc5270db8e1a79c0b048189b3cc2ef') in 0.147421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.196581 seconds.
+  path: Assets/Textures/Import/Bobble Wars Enemy texture.psd
+  artifactKey: Guid(b9bf0b737e674433d8948f8f855969fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Import/Bobble Wars Enemy texture.psd using Guid(b9bf0b737e674433d8948f8f855969fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b031999e15729bbbd4f124bedf0ad6e2') in 0.045695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.447328 seconds.
+  path: Assets/Prefabs/BobbleArena-Column.prefab
+  artifactKey: Guid(4d134748aca7f8a47a90ff2f1a29a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BobbleArena-Column.prefab using Guid(4d134748aca7f8a47a90ff2f1a29a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410e22c7ccd468d7ba4e1fdcbd13b17f') in 0.016230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 171.488014 seconds.
+  path: Assets/Prefabs/BobbleArena-Column.prefab
+  artifactKey: Guid(4d134748aca7f8a47a90ff2f1a29a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BobbleArena-Column.prefab using Guid(4d134748aca7f8a47a90ff2f1a29a466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3127e870ed0a18c99a2a1af1e8b81f') in 0.013736 seconds 
