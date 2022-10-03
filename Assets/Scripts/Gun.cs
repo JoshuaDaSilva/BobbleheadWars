@@ -18,12 +18,7 @@ public class Gun : MonoBehaviour
         bullet.transform.position = launchPosition.position;
         return bullet.GetComponent<Rigidbody>();
     }
-
-    public void UpgradeGun()
-    {
-        isUpgraded = true;
-        currentTime = 0;
-    }
+ 
 
     void fireBullet()
     {
@@ -34,10 +29,10 @@ public class Gun : MonoBehaviour
         {
             Rigidbody bullet2 = createBullet();
             bullet2.velocity =
-            (transform.right + transform.forward / 0.5f) * 100;
+                    (transform.right + transform.forward / 0.5f) * 100;
             Rigidbody bullet3 = createBullet();
             bullet3.velocity =
-            ((transform.right * -1) + transform.forward / 0.5f) * 100;
+                    ((transform.right * -1) + transform.forward / 0.5f) * 100;
         }
 
         if (isUpgraded)
@@ -49,11 +44,16 @@ public class Gun : MonoBehaviour
             audioSource.PlayOneShot(SoundManager.Instance.gunFire);
         }
     }
+    public void UpgradeGun()
+    {
+        isUpgraded = true;
+        currentTime = 0;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
