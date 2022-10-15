@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{2EB6D4DA-63DC-2621-BA32-E71274209143}</ProjectGuid>
+    <ProjectGuid>{2F00706F-3E30-13B2-8135-FB76D1269A60}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Scripts\Arena.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\CameraShake.cs" />
     <Compile Include="Assets\Scripts\Alien.cs" />
@@ -66,10 +67,9 @@
     <Compile Include="Assets\Scripts\Projectile.cs" />
     <Compile Include="Assets\Scripts\ArenaWall.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\SelfDestruct.cs" />
+    <Compile Include="Assets\Scripts\CameraMovement.cs" />
     <Compile Include="Assets\Scripts\DeathParticles.cs" />
-    <Compile Include="Assets\Scripts\Arena.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -6,6 +6,8 @@ public class SoundManager : MonoBehaviour
 {
     public static SoundManager Instance = null;
     private AudioSource soundEffectAudio;
+
+    //Sound Effects
     public AudioClip gunFire;
     public AudioClip upgradedGunFire;
     public AudioClip hurt;
@@ -15,11 +17,6 @@ public class SoundManager : MonoBehaviour
     public AudioClip elevatorArrived;
     public AudioClip powerUpPickup;
     public AudioClip powerUpAppear;
-
-    public void PlayOneShot(AudioClip clip)
-    {
-        soundEffectAudio.PlayOneShot(clip);
-    }
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +43,11 @@ public class SoundManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
+    }
+
+    public void PlayOneShot(AudioClip clip)
+    {
+        soundEffectAudio.PlayOneShot(clip);
     }
 }

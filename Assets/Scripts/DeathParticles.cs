@@ -6,19 +6,6 @@ public class DeathParticles : MonoBehaviour
 {
     private ParticleSystem deathParticles;
     private bool didStart = false;
-    public void Activate()
-    {
-        didStart = true;
-        deathParticles.Play();
-    }
-    public void SetDeathFloor(GameObject deathFloor)
-    {
-        if (deathParticles == null)
-        {
-            deathParticles = GetComponent<ParticleSystem>();
-        }
-        deathParticles.collision.SetPlane(0, deathFloor.transform);
-    }
 
     // Start is called before the first frame update
     void Start()
@@ -33,5 +20,20 @@ public class DeathParticles : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    public void Activate()
+    {
+        didStart = true;
+        deathParticles.Play();
+    }
+
+    public void SetDeathFloor(GameObject deathFloor)
+    {
+        if (deathParticles == null)
+        {
+            deathParticles = GetComponent<ParticleSystem>();
+        }
+        deathParticles.collision.SetPlane(0, deathFloor.transform);
     }
 }
